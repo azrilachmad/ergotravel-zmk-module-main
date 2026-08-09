@@ -47,12 +47,12 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - '2'
-  - $$mdi:keyboard-space$$
-  - Colemak-HRM
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Colemak-HRM
   - $$mdi:keyboard-space$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-space$$
+  - Colemak-HRM
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
@@ -104,12 +104,12 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - '2'
-  - $$mdi:keyboard-space$$
-  - {t: Colemak-HRM, type: held}
+  - {t: '$$mdi:keyboard-space$$', type: held}
+  - Colemak-HRM
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Colemak-HRM, type: held alternate}
-  - $$mdi:keyboard-space$$
+  - Colemak-HRM
+  - {t: '$$mdi:keyboard-space$$', type: held alternate}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
@@ -161,12 +161,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - $$mdi:skip-previous$$
   - $$mdi:volume-off$$
   - PLAY PAUSE
