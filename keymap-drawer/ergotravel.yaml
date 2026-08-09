@@ -7,8 +7,8 @@ layers:
   - E
   - R
   - T
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - T
+  - Y
   - Y
   - U
   - I
@@ -21,8 +21,8 @@ layers:
   - D
   - F
   - G
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - G
+  - H
   - H
   - J
   - K
@@ -64,13 +64,13 @@ layers:
   - '3'
   - '4'
   - {t: '5', s: '%'}
+  - {t: '-', s: _}
+  - {t: '=', s: +}
   - '6'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - F1
@@ -78,17 +78,17 @@ layers:
   - F3
   - F4
   - F5
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - F6
   - F7
   - F8
   - F9
   - F10
-  - F11
-  - F12
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F11
+  - F12
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
