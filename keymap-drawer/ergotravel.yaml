@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - T
+  - Y
   - Y
   - Y
   - U
@@ -21,7 +21,7 @@ layers:
   - D
   - F
   - G
-  - G
+  - H
   - H
   - H
   - J
@@ -35,7 +35,7 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:navigation-variant$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - B
   - N
   - M
