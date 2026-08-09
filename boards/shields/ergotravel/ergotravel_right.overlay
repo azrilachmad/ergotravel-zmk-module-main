@@ -1,5 +1,27 @@
-#include "ergotravel.dtsi" // The shared dtsi file is included in the overlay
+#include "ergotravel.dtsi"
 
-&matrix_transform0 { // Offset of 7 because the left side has 7 columns
+&matrix_transform0 {
     col-offset = <7>;
+};
+
+/ {
+    pro_micro: pro_micro {
+        compatible = "zmk,gpio-map";
+        #gpio-cells = <2>;
+        gpio-map-mask = <0xffffffff 0xffffffff>;
+        gpio-map-pass-thru = <0 0>;
+        gpio-map
+            = <0 0 &xiao_d 0 0>
+            , <1 0 &xiao_d 1 0>
+            , <2 0 &xiao_d 2 0>
+            , <3 0 &xiao_d 3 0>
+            , <4 0 &xiao_d 4 0>
+            , <5 0 &xiao_d 5 0>
+            , <6 0 &xiao_d 6 0>
+            , <7 0 &xiao_d 7 0>
+            , <8 0 &xiao_d 8 0>
+            , <9 0 &xiao_d 9 0>
+            , <10 0 &xiao_d 10 0>
+            ;
+    };
 };
