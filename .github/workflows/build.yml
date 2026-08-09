@@ -1,0 +1,12 @@
+name: Build ZMK firmware
+on:
+  workflow_dispatch:
+  push:
+    paths-ignore:
+      - "keymap-drawer/**"
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
+    with:
+      archive_name: ergotravel-firmware
