@@ -8,7 +8,7 @@ layers:
   - R
   - T
   - Y
-  - Y
+  - T
   - Y
   - U
   - I
@@ -22,7 +22,7 @@ layers:
   - F
   - G
   - H
-  - H
+  - G
   - H
   - J
   - K
@@ -47,8 +47,8 @@ layers:
   - LGUI
   - '2'
   - $$mdi:apple-keyboard-option$$
-  - Colemak-HRM
   - $$mdi:keyboard-space$$
+  - Colemak-HRM
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
@@ -104,8 +104,8 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - '2'
-  - {t: '$$mdi:keyboard-space$$', type: held}
-  - Colemak-HRM
+  - $$mdi:keyboard-space$$
+  - {t: Colemak-HRM, type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Colemak-HRM
@@ -161,8 +161,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {type: held alternate}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
